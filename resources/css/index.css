@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    color: #403f3f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+}
+
+p {
+    font-size: 18px;
+    color: #787777;
+}
+
+header {
+    height: 64px;
+    padding: 5px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.logoTitle {
+    display: inline-flex;
+    padding-left: 24px;
+    color: #9B9B9B;
+    align-items: center;
+}
+
+.logoTitle strong {
+    color: #4A4A4A;
+}
+
+.logoTitle img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    padding-left: 16px;
+}
+
+.navLinks {
+    text-align: end;
+    padding-right: 24px;
+    font-size: 24px;
+}
+
+.start-section {
+    background-color: #D8D8D8;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+}
+
+.start-pic {
+    padding: 5% 6%;
+}
+
+.start-pic img {
+    width: 100%;
+}
+
+.start-info {
+    text-align: center;
+    font-size: 28px;
+}
+
+.start-info button {
+    color: white;
+    background-color: #424141;
+    padding: 10px;
+    width: 60%;
+    font-size: 18px;
+}
+
+.orientation-section {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.orientation-pic {
+    padding: 5% 6%;
+}
+
+.orientation-pic p {
+    padding-left: 0;
+}
+
+.orientation-pic img {
+    width: 100%;
+}
+
+.orientation-info {
+    border-left: 1px solid #D8D8D8;
+    padding-top: 30px;
+}
+
+.orientation-info-div {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    padding: 16px;
+}
+
+.orientation-info-div p {
+    padding-left: 0;
+}
+
+.orientation-info-div img{
+    width: 90%;
+}
+
+.learning-section {
+    background-color: #D8D8D8;
+    text-align: center;
+    padding: 32px 72px;
+}
+
+.learning-section h2 {
+    padding-bottom: 32px;
+}
+
+.learning-divs {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+.course-div img {
+    width: 99.9%;
+}
+
+.course-div {
+    background-color: #FFF;
+    text-align: left;
+}
+
+.course-div h4, p {
+    padding-left: 16px;
+}
+
+.thesis-section {
+    padding: 32px;
+}
+
+.thesis-section h2{
+    text-align: center;
+}
+
+.thesis-section p {
+    padding-left: 0;
+}
+
+.thesis-grid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 24px;
+}
+
+.thesis-video video {
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+.thesis-video {
+
+}
+
+a {
+    text-decoration: none;
+    color: #4A90e2;
+}
+
+footer {
+    border-top: 1px solid #D8D8D8;
+    padding: 16px 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.copyright {
+    text-align: left;
+}
+
+.terms {
+    text-align: end;
+}
+
+footer ul {
+    list-style: none;
+    gap: 16px;
+    display: inline-flex;
+}
